@@ -26,11 +26,61 @@ Implementação computacional — aplicação de rotinas em R para limpeza, filt
 Os indicadores elaborados abrangem múltiplos eixos temáticos:
 
 **Educação (Censo Escolar 2024)**
+
 Incluem aspectos de infraestrutura, acessibilidade, tecnologia, inclusão, serviços oferecidos e características institucionais das escolas fluminenses.
 
 **Saúde e Mortalidade (SIM, SIH/SUS, SINASC)**
+
 Englobam taxas de mortalidade por faixa etária, causas específicas (como doenças respiratórias), mortalidade fetal e comparações entre triênios (2017–2019 vs. 2020–2022), permitindo avaliar impactos da pandemia de COVID-19.
 
 **População e Condições Sociais (Censo Demográfico 2022)**
+
 Doze indicadores sintetizam dimensões socioeconômicas, demográficas, domiciliares, educacionais e de vulnerabilidade social da população residente nos municípios do estado.
 No total, o repositório reúne indicadores integrados derivados de bases distintas, consolidados por município e acompanhados de documentação metodológica completa.
+
+# Estrutura do Repositório
+
+O repositório contém, entre outros arquivos:
+
+- base final compiladas em formato .xlsx;
+- documentação técnica com fórmulas, explicações metodológicas e descrição das variáveis;
+- dicionário de dados das variáveis utilizadas e geradas.
+
+# Principais Ferramentas Utilizadas
+
+O projeto foi desenvolvido integralmente em R, utilizando pacotes como:
+
+- dplyr
+- readr
+- tidyr
+- naniar
+- writexl
+entre outros utilizados na etapa de integração dos microdados.
+
+# Participantes
+
+Este projeto foi realizado por estudantes da disciplina **GET00195 – Prática Estatística I** do curso de **Estatística da Universidade Federal Fluminense (UFF)**, turma 2025/2:
+
+- ALEXANDRE VILLELA ROQUE
+- CAROLINA CABO PIAZZAROLO
+- CLAUDIONOR FERREIRA DA SILVA JUNIOR
+- DIOGO DE ALMEIDA DA CONCEICAO
+- FELIPE CEACERO RODRIGUES MAIA
+- GUSTAVO BELFORT PARREIRAS COUTINHO
+- IGOR CARDOSO DE SOUZA
+- INGRID THAYNARA DE OLIVEIRA BRITO
+- ISABELLA RODRIGUES DE PAULO
+- ISABELLE SALVADOR MENDES
+- JOAO VICTOR OLIVEIRA HONORATO
+- MAGNO CARDOSO BARRETO
+- MARCOS PAULO COSTA DA SILVA DIAS
+- MARIA EDUARDA NOIRA PASSOS DA COSTA LEAL
+- MATEUS FERREIRA VICTOR
+- MONIKA BATISTA SUBA
+- PEDRO IVO RAMOS DOS SANTOS
+- PEDRO LUCAS DO NASCIMENTO DE JESUS
+- SARAH DE LIMA VERISSIMO IVANICSKA COSTA
+- THUANE VITORIA DE OLIVEIRA DE SOUZA
+- TIAGO GOULART VELOSO NUNES
+- VITOR EDUARDO BEZERRA FERREIRA
+
